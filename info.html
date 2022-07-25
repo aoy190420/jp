@@ -48,23 +48,38 @@
     タイトル部分をクリック/タップすると詳細を表示します
     <hr>
     <br>
-    <table class="border medium-space">
-        <thead>
-            <tr>
-                <th>公開日</th>
-                <th>タイトル</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2022年07月22日
-                </td>
-                <td>
-                    ページを更新しました
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <article class="round">
+      <div class="row no-wrap">
+        <div class="col">
+          <h5 class="no-margin">
+            大幅なUI変更をしました
+          </h5>
+          <div>2022年7月25日</div>
+        </div>
+      </div>
+      <nav>
+        <button data-ui="#大幅なUI変更を行いました" class="none">詳しい内容...</button>
+      </nav>
+    </article>
+    <!-- 以下よりポップアップ -->
+    <div class="modal right" id="大幅なUI変更を行いました">
+      <nav class="right-align">
+        <button class="border round" data-ui="#大幅なUI変更を行いました"><I>close</I></button>
+      </nav>
+      <h2>大幅なUI変更を行いました</h2>
+      <div>2022年7月25日</div>
+      <hr>
+      <br>
+      <i>question_answer</i>（お知らせ）ページによる情報ページの追加や、<br>
+      <i>apps</i>（もっと）ページのグリッドビューにより、<br>
+      以前よりも見やすく使いやすくなっています。
+      <br>
+      <br>
+      また、英字フォントを変更しました。
+      <!-- 下部 -->
+      <nav class="right-align">
+        <button class="border round" data-ui="#大幅なUI変更を行いました"><I>close</I></button>
+      </nav>
+    </div>
 </body>
 </html>

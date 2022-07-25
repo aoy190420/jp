@@ -20,7 +20,7 @@
     </a>
     <a class="active" href="more.html">
       <i>apps</i>
-      <div>情報</div>
+      <div>もっと</div>
     </a>
     <div class="modal large left no-scroll"></div>
     <div class="modal left"></div>
@@ -46,8 +46,7 @@
 <body>
     <div class="page left active"><h1>もっと見る</h1></div>
     <hr>
-    <br>
-    <br>
+    <h3>公開済みのApp</h3>
     <div class="row">
             <div class="col s6">
                 <article class="border round">
@@ -80,8 +79,17 @@
             </article>
         </div>
     </div>
-      
     <br>
+    <h3>その他</h3>
+    <article class="border round">
+        <div class="row no-wrap">
+            <div class="col">
+                <center><a href="https://docs.google.com/forms/d/e/1FAIpQLSdShkQ5x5XVVZEGvOkEX3qpTNCRUgXZt7G4F724l4DswFv-sw/viewform"><I style="font-size: 26px" class="large-text">face</I></a></center>
+                <center><a href="https://docs.google.com/forms/d/e/1FAIpQLSdShkQ5x5XVVZEGvOkEX3qpTNCRUgXZt7G4F724l4DswFv-sw/viewform"><p style="text-align:center;transform: scale(0.8, 1);" class="bold no-margin">作って欲しいページ<br>(募集中)</p></a></center>
+            </div>
+        </div>
+    </article>
+    <!--  -->
     <br>
     <center>
         <button class="flat round extra" data-ui="#version">
@@ -89,7 +97,10 @@
             <span>バージョン情報</span>
         </button>
     </center>
-    <div class="modal bottom" id="version">
+    <div class="modal left" id="version">
+        <nav class="right-align">
+          <button class="border round" data-ui="#version"><I>close</I></button>
+        </nav>
         <h5 style="font-size: 24px;">バージョン5.1</h5>
         <div></div>
         <table class="border medium-space">
@@ -121,25 +132,6 @@
                         Open Source
                     </td>
                 </tr>
-                <tr>
-                    <td><B>
-                        Based
-                    </B></td>
-                    <td>
-                        BEER-CSS
-                    </td>
-                </tr>
-                <tr>
-                    <td><B>
-                        フォント
-                    </B></td>
-                    <td>
-                        <code>
-                            body {<br>
-                                font-family: "Work Sans","M PLUS 1p"<br>
-                            }</code> 
-                    </td>
-                </tr>
             </tbody>
         </table>
         <br>
@@ -152,6 +144,11 @@
             <p>バグ等発生したのを確認したときは，<br>フィードバックを送信してください</p>
         </center>
         <br>
+        <br>
+        <!-- 下部 -->
+        <nav class="right-align">
+          <button class="border round" data-ui="#version"><I>close</I></button>
+        </nav>
     </div>
 </body>
 </html>
